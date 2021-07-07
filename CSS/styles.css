@@ -14,7 +14,6 @@
 
 .sections-paddings {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .text-aling {
@@ -28,7 +27,6 @@
 
 body {
   font-family: var(--main-font);
-  background-color: yellowgreen;
 }
 
 h1,
@@ -78,8 +76,8 @@ img {
 }
 
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation {
@@ -94,8 +92,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-black);
   margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 
 .web-logo {
@@ -176,12 +172,12 @@ img {
   width: 696px;
   height: 600px;
   background-color: var(--background-color);
-  padding-top: 200px;
-  padding-bottom: 200px;
+ 
 }
 
 .hero {
   background-color: var(--background-color);
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -215,11 +211,14 @@ img {
 .advantages-link {
   display: flex;
   align-items: center;
+  margin-left: -30px;
 }
 
 .advantages-item {
-  width: calc ((100% - 30px)/3);
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
 }
+
 
 .advantages-title {
   font-weight: 700;
@@ -233,7 +232,7 @@ img {
 .advantages-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-grey);
 }
@@ -255,11 +254,15 @@ img {
 .services-link {
   display: flex;
   align-items: center;
+  margin-left: -30px;
 }
 
 .services-item {
-  width: calc((100% - 30px) / 2);
+  flex-basis: calc((100% - 90px) / 3);
+  margin-left: 30px;
 }
+
+
 
 /*===END SERVICES===*/
 
@@ -284,20 +287,21 @@ img {
   margin-bottom: 50px;
 }
 
+.our-team-link {
+margin-left: -30px;
+}
+
 .our-team-item {
-  width: calc((100% - 90px) / 4);
-  margin-right: 30px;
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-item:nth-child(4n) {
-  margin-right: 0;
-}
-
-.our-team-images {
-  margin-bottom: 30px;
+.our-team-divchik{
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .our-team-person {
@@ -307,7 +311,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--color-black);
-  margin-bottom: 10px;
+  
 }
 
 .our-team-profession {
@@ -317,7 +321,8 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--color-grey);
-  margin-bottom: 30px;
+  margin-top: 10px;
+ 
 }
 
 /*===END OUR TEAM===*/
@@ -338,7 +343,10 @@ img {
   line-height: 1.15;
   letter-spacing: 0.03em;
   color: var(--color-white);
-  margin-bottom: 20px;
+}
+
+.footer-link{
+margin-top: 20px;
 }
 
 .footer-item:not(:last-child) {
@@ -383,6 +391,12 @@ img {
 
 /*=====HERO====*/
 
+.header-portfolio {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: 1px solid #ECECEC;
+}
+
 .hero-porfolio{
 padding-top: 94px;
 padding-bottom: 94px;
@@ -406,6 +420,10 @@ padding-bottom: 94px;
   letter-spacing: 0.03em;
   color: var(--color-black);
   cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .modal-btn-portfolio:hover,
