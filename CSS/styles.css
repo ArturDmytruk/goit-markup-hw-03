@@ -14,6 +14,8 @@
 
 .sections-paddings {
   padding-top: 94px;
+  padding-bottom: 94px;
+  
 }
 
 .text-aling {
@@ -170,7 +172,6 @@ img {
 
 .hero-container {
   width: 696px;
-  height: 600px;
   background-color: var(--background-color);
  
 }
@@ -178,6 +179,7 @@ img {
 .hero {
   background-color: var(--background-color);
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -207,6 +209,7 @@ img {
 /*=====END HERO====*/
 
 /*===ADVANTAGES===*/
+
 
 .advantages-link {
   display: flex;
@@ -270,6 +273,8 @@ img {
 
 .our-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-team-link {
@@ -394,12 +399,7 @@ margin-top: 20px;
 .header-portfolio {
   padding-top: 24px;
   padding-bottom: 24px;
-  border: 1px solid #ECECEC;
-}
-
-.hero-porfolio{
-padding-top: 94px;
-padding-bottom: 94px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .buttons-porfolio {
@@ -462,6 +462,9 @@ padding-bottom: 94px;
   padding-bottom: 24px;
   padding-left: 24px;
   padding-right: 24px;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 .hero-images-title {
